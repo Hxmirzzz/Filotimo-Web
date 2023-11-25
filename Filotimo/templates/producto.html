@@ -1,0 +1,105 @@
+<html>
+<head>
+<title>Filotimo l Beats For All The World</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+<style>
+#contenedor
+{
+background-color:skyblue;
+width:1000px;
+height:1600px;
+margin:auto;
+}
+#encabezado
+{
+background-color:lightcyan;
+width:900px;
+height:100px;
+margin:auto;
+border-radius: 10px; padding: 10px;
+}
+#encabezado h1
+{
+font-family: sans-serif;
+font-size: 80px;
+align-items: center;
+justify-content: center;
+height: 100vh;
+margin: 0;
+}
+#menu
+{
+background-color:lightcyan;
+width:900px;
+height:100px;
+margin:auto;
+border-radius: 10px; padding: 10px;
+}
+#contenido
+{
+background-color:lightcyan;
+width:900px;
+height:1000px;
+margin:auto;
+border-radius: 10px; padding: 10px;
+}
+#pie
+{
+background-color:lightcyan;
+width:900px;
+height:100px;
+margin:auto;
+border-radius: 10px; padding: 10px;
+}
+#button {
+padding:0;
+align-items: center;
+justify-content: center;
+height: 100vh;
+margin: 0;
+}
+#button li {
+display:inline
+}
+#button li a {
+font-family: Segoe UI;
+font-size:18px;
+color: lightcyan;
+background-color: lightblue;
+padding:10px;
+border-radius: 10px; padding: 10px;
+}
+</style>
+<link rel="shortcut icon" href="../img/Logo.png">
+</head>
+<body style="background-image: url({{ url_for('static', filename='img/fondo.jpg') }})">
+
+<div id="contenedor">
+    <br><br>
+    <div id="encabezado">
+   <center><h1>EXPLORER</h1></center>
+   </div>
+   <br>
+    <div id="menu">
+    <br><br>
+    <ul id="button">
+        <center>
+        <li><a href="#">the most produced</a></li>
+        <li><a href="#">the best producers</a></li>
+        <li><a href="#">shop now</a></li>
+        <li><a href="#">producer challenge</a></li>
+        <li><a href="#">new promotions</a></li>
+        </center>
+    </ul>
+    </div>
+    <br><br>
+    <div id="contenido">
+    </div>
+    <br><br>
+    <div id="pie">
+    </div>
+</div>
+
+
+</body>
+</html>
